@@ -1,0 +1,116 @@
+
+
+#urusvid {
+  top: 0;
+  right: 0;
+  bottom: 10px;
+  width: 100%;
+  height: 100%;
+  
+  
+}
+ header{
+    
+    left: 0;
+    top: 0;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+   
+    
+    
+ }
+
+ .ur1, .ur2 {
+    width: 70px;
+    height: 80px;
+    transform: rotate(0deg);
+    
+ }
+ .zero {
+    display: flex;
+    justify-content: space-between;
+    max-height: 80px;
+    flex-wrap: nowrap;
+    
+ }
+
+ p {
+    font-family: 'Allerta Stencil';
+    font-size: 30px;
+    color: #f5f5dc;
+   margin: 10px;
+ }
+
+ 
+ nav {
+    margin-top: 10px;
+ }
+ ul {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+ }
+ nav > ul > li > a {
+    text-decoration: none;
+    color: #f5f5dc;
+    font-size: 20px;
+
+ }
+ nav > ul > li {
+    list-style: none;
+ }
+ .two {
+   text-align: center;
+   font-weight: bold;
+   text-decoration: dotted;
+   font-family: 'Allerta Stencil';
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    
+ }
+
+
+ img {
+   max-width: 100%;
+   width: 420px;
+   height: 370px;
+   object-fit: cover;
+   border-radius: 20px;
+   box-shadow: gainsboro;
+ }
+ span {
+   text-align: center;
+   padding: 20px;
+   letter-spacing: 5px;
+   font-family: 'Nova Flat';
+   font-size: 20px;
+ }
+ .quote {
+   letter-spacing: 5px;
+   font-family: 'Nova Flat';
+   margin: 50px auto ;
+ }
+ footer { text-align: center;
+   background: black;
+   width: 100%;
+   height: 80px;
+   color: #f5f5dc;
+   display: flex;
+   justify-content: space-between;
+   font-size: 20px;
+ }
+ a {
+   color: gold;
+ }
+ .quote {
+   text-align: center;
+   color: black;
+ }
